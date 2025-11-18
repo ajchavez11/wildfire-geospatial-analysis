@@ -47,4 +47,4 @@ credentials.json
 
 # Temporary files
 *.log
-*.tmp
+*.tmp.Rhistory
