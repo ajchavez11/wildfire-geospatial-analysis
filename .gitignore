@@ -1,0 +1,50 @@
+# Geospatial data files (often too large for Git)
+*.tif
+*.tiff
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.geojson
+*.gpkg
+data/raw/*
+data/processed/*
+
+# But keep .gitkeep files
+!.gitkeep
+!**/.gitkeep
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large outputs
+*.zip
+*.tar.gz
+
+# API keys and credentials
+.env
+credentials.json
+*secret*
+*key*
+
+# Temporary files
+*.log
+*.tmp
